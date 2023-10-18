@@ -1,0 +1,695 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Satisfy&display=swap');
+
+p, h1, h2, h3, h4, h5{
+    margin-bottom: 0rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#d1{
+    background-image: url(/OM/assets/BG1.jpg);
+    background-size: 100% auto;
+    background-position: top;
+}
+.nb{
+    font-family: 'Kalam', cursive;
+}
+.navbar-brand, .nav-link.active{
+    color: #E09FA5 !important;
+    font-size: 2.5em;
+}
+.nav-link.active:hover{
+    color: beige !important;
+}
+.navbar-brand{
+    font-family: 'Kalam', cursive;
+    display: flex;
+    align-items: center;
+}
+.navbar-brand img{
+    margin: 0 0.3em 0 0.3em !important;
+    width: 2em !important;
+}
+.nav-link.active{
+    margin-right: 0.5em;
+}
+.navbar-toggler{
+    color: #E09FA5;
+    border-color: beige !important;
+}
+nav.navbar.navbar-expand-lg.bg-body-tertiary{
+    background-color: rgba(255, 255, 255, 0) !important;
+    padding: 2em 1em 0em 1em;
+}
+#d1 h1{
+    color: beige;
+    text-align: center;
+    padding: 0.6em 1em 0em 1em;
+    font-size: 9em;
+    font-weight: 100;
+    font-family: 'Satisfy', cursive;
+}
+#d1 img{
+    margin: 0 35% 0 35%;
+    width: 30%;
+}
+#d1 h2{
+    color: #EEB3B9;
+    text-align: center;
+    padding: 0em 1em 0.5em 1em;
+    font-size: 4em;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+#d1 p{
+    color: beige;
+    text-align: center;
+    padding: 0em 2.5em 3em 2.5em;
+    font-size: 3em;
+    font-weight: 100;
+    font-family: 'Kalam', cursive;
+}
+
+#d2{
+    background-image: url(/OM/assets/BG2.png);
+    background-size: cover;
+    background-position: top;
+}
+#d2 h1{
+    color: rgb(159, 0, 109);
+    padding: 0.5em 1em 0em 1em;
+    font-size: 10em;
+    font-weight: 100;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+#sd2-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0em 0em 3em 0em;
+}
+#d2 img{
+    box-sizing: content-box;
+    width: 45em;
+    height: fit-content;
+    padding: 0em 3em 1em 4em;
+}
+#d2 p{
+    color: rgb(77, 6, 6);
+    padding: 0.5em 1.5em 0em 0em;
+    font-size: 3em;
+    font-weight: 100;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+}
+
+#d3{
+    background-image: url(/OM/assets/BG3.png);
+    background-size: cover;
+    background-position: top;
+}
+#d3 h1{
+    color: beige;
+    padding: 0.5em 1em 0.1em 1em;
+    font-size: 10em;
+    font-weight: 100;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+#sd3-1{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 0em 0em 3em 0em;
+}
+#d3 img{
+    box-sizing: content-box;
+    width: 45em;
+    height: fit-content;
+    padding: 0em 3.5em 0em 0em;
+}
+#d3 p{
+    color: wheat;
+    padding: 0.5em 1em 1em 1.5em;
+    font-size: 2.8em;
+    font-weight: 100;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+}
+#d4{
+    background-image: url(/OM/assets/BG4.png);
+    background-size: cover;
+    background-position: top;
+}
+#d4 h1{
+    color: darkblue;
+    padding: 0.5em 1em 0.1em 1em;
+    font-size: 10em;
+    font-weight: 100;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+#sd4-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    padding: 0 2em 2em 2em;
+}
+#d4 img{
+    width: 100%;
+}
+#d4 p{
+    color: black;
+    padding: 0.5em 1.5em 2em 1.5em;
+    font-size: 2.8em;
+    font-weight: 100;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+}
+#d5{
+    background-image: url(/OM/assets/BG5.png);
+    background-size: cover;
+    background-position: top;
+}
+#d5 h1{
+    color: beige;
+    padding: 0.5em 1em 0.1em 1em;
+    font-size: 10em;
+    font-weight: 100;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+#sd5-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    padding: 0 3em 4em 3em;
+}
+#d5 img{
+    width: 100%;
+}
+#d5 p{
+    color: whitesmoke;
+    padding: 0.5em 1.5em 1em 1.5em;
+    font-size: 2.8em;
+    font-weight: 100;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+}
+#d6{
+    background-image: url(/OM/assets/BG6.png);
+    background-size: cover;
+    background-position: top;
+}
+#d6 h1{
+    color: maroon;
+    padding: 1em 1em 0.5em 1em;
+    font-size: 10em;
+    font-weight: 100;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+#sd6-1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2em 5em 5em 5em;
+    grid-gap: 3em;
+}
+#sd6-1 .card{
+    border-radius: 30px;
+}
+#sd6-1 .card img{
+    border-radius: 30px 30px 0% 0%;
+}
+#sd6-1 .card-title{
+    font-family: 'Kalam', cursive;
+    font-size: 3em;
+    padding: 0.4em;
+    color: rgb(139, 83, 0);
+    text-align: center;
+    margin: 0;
+}
+#sd6-1 .card-text{
+    font-family: 'Kalam', cursive;
+    font-size: 2em;
+    padding: 0 0.4em 0.4em 0.4em;
+    color: rgb(28, 138, 0);
+    text-align: center;
+}
+
+
+
+
+@media screen and (max-width:1751px){
+    #d2 p{
+        font-size: 2.8em;
+    }
+    #d2 img{
+        width: 43em;
+    }
+    #d3 img{
+        width: 43em;
+    }
+    #d3 p{
+        font-size: 2.6em;
+    }
+    #sd6-1 .card-title{
+        font-size: 2.5em;
+    }
+    #sd6-1 .card-text{
+        font-size: 1.8em;
+    }
+}
+@media screen and (max-width:1655px){
+    #d2 h1{
+        font-size: 9em;
+    }
+    #d2 p{
+        font-size: 2.6em;
+    }
+    #d2 img{
+        width: 41em;
+    }
+    #d3 h1{
+        padding: 0.4em 1em 0em 1em;
+    }
+    #d3 img{
+        width: 40em;
+    }
+    #d3 p{
+        font-size: 2.3em;
+    }
+}
+@media screen and (max-width:1497px){
+    #d2 p{
+        font-size: 2.4em;
+    }
+    #d2 img{
+        width: 38em;
+    }
+    #d3 h1{
+        font-size: 8em;
+        padding: 0.4em 1em 0em 1em;
+    }
+    #d3 img{
+        width: 38em;
+    }
+    #d3 p{
+        font-size: 2.1em;
+        padding: 0.5em 1em 1em 2em;
+    }
+    #d6 h1{
+        font-size: 8em;
+    }
+    #sd6-1 .card-title{
+        font-size: 2.2em;
+    }
+    #sd6-1 .card-text{
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width:1391px){
+    .navbar-brand, .nav-link.active{
+        font-size: 2em;
+    }
+    #d2 h1{
+        font-size: 8em;
+    }
+    #d2 p{
+        font-size: 2.2em;
+    }
+    #d2 img{
+        width: 34em;
+    }
+    #d3 img{
+        width: 35em;
+    }
+    #d3 p{
+        font-size: 2em;
+    }
+    #sd4-1{
+        grid-template-columns: 1.5fr 1fr;
+        padding: 0 3em 2em 3em;
+    }
+    #imgd4-2{
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    #sd5-1{
+        grid-template-columns: 1fr 1fr;
+        padding: 0 5em 4em 5em;
+    }
+    #imgd5-1{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        padding: 0 10em;
+    }
+    #sd6-1{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2em 7em 5em 7em;
+    }
+    #sd6-1 .card-title{
+        font-size: 3em;
+    }
+    #sd6-1 .card-text{
+        font-size: 2em;
+    }
+}
+@media screen and (max-width:1271px){
+    #sd2-1{
+        flex-direction: column;
+    }
+    #d2 h1{
+        font-size: 8em;
+    }
+    #d2 p{
+        padding: 0.5em 3em 0em 3em;
+        font-size: 2.2em;
+    }
+    #d2 img{
+        width: 34em;
+        padding: 0em 3em 1em 3em;
+    }
+    #sd3-1{
+        flex-direction: column;
+    }
+    #d3 img{
+        width: 35em;
+        padding: 0em 3em 1em 3em;
+    }
+    #d3 p{
+        font-size: 2.1em;
+        padding: 0.5em 3em 0em 3em;
+    }
+    #sd6-1 .card-title{
+        font-size: 2.6em;
+    }
+    #sd6-1 .card-text{
+        font-size: 1.8em;
+    }
+}
+@media screen and (max-width:1200px){
+    #d1 h1{
+        font-size: 7.5em;
+    }
+    #d4 h1, #d5 h1{
+        font-size: 8em;
+    }
+    #d4 p, #d5 p{
+        font-size: 2.5em;
+    }
+    #d6 h1{
+        font-size: 6em;
+    }
+    #sd6-1{
+        padding: 2em 4em 5em 4em;
+    }
+
+}
+@media screen and (max-width:1050px){
+    .navbar-brand, .nav-link.active{
+        font-size: 1.5em;
+    }
+    #sd6-1 .card-title{
+        font-size: 2.4em;
+    }
+    #sd6-1 .card-text{
+        font-size: 1.5em;
+    }
+
+}
+@media screen and (max-width:970px){
+    #d1 h1{
+        font-size: 6.5em;
+    }
+    #d1 img{
+        margin: 0 30% 0 30%;
+        width: 40%;
+    }
+    #d4 p, #d5 p{
+        font-size: 2.3em;
+    }
+    #imgd5-1{
+        padding: 0 7em;
+    }
+    #sd6-1{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 2em 10em 5em 10em;
+    }
+    #sd6-1 .card-title{
+        font-size: 3em;
+    }
+    #sd6-1 .card-text{
+        font-size: 2em;
+    }
+}
+@media screen and (max-width:840px){
+    #d1 h1{
+        font-size: 5.5em;
+    }
+    #d1 p{
+        padding: 0em 2.5em 2.5em 2.5em;
+        font-size: 2em;
+    }
+    #sd4-1{
+        grid-template-columns: 1fr;
+        padding: 0 5em 2em 5em;
+    }
+    #imgd4-2{
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    #imgd4-3{
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    #d4 p, #d5 p{
+        font-size: 2.1em;
+    }
+    #sd5-1{
+        grid-template-columns: 1fr;
+        padding: 0 4em 4em 4em;
+    }
+    #imgd5-1{
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        padding: 0;
+    }
+    #d6 h1{
+        font-size: 5em;
+    }
+    #sd6-1 .card-title{
+        font-size: 2.5em;
+    }
+    #sd6-1 .card-text{
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width:760px){
+    #d1 h1{
+        padding: 1em 25vw 0.3em 25vw;
+        line-height: 0.8em;
+        font-size: 20vw;
+    }
+    #d1 h2{
+        font-size: 3em;
+    }
+    #sd6-1{
+        padding: 2em 5em 5em 5em;
+    }
+    #sd6-1 .card-title{
+        font-size: 3em;
+    }
+    #sd6-1 .card-text{
+        font-size: 2em;
+    }
+}
+@media screen and (max-width:680px){
+    #d2 h1{
+        font-size: 6.5em;
+    }
+    #d2 p{
+        padding: 0.5em 2em 0em 2em;
+        font-size: 2em;
+    }
+    #d2 img{
+        width: 25em;
+    }
+    #d3 h1{
+        font-size: 6.5em;
+    }
+    #d3 img{
+        width: 25em;
+    }
+    #d3 p{
+        font-size: 2em;
+        padding: 0.5em 2.5em 0em 2.5em;
+    }
+    #d6 h1{
+        font-size: 3.8em;
+    }
+    #sd6-1{
+        padding: 2em 3.5em 5em 3.5em;
+    }
+    #sd6-1 .card-title{
+        font-size: 2.4em;
+    }
+    #sd6-1 .card-text{
+        font-size: 1.6em;
+    }
+}
+@media screen and (max-width:510px){
+    #d1 h1{
+        padding: 1em 25vw 0.3em 25vw;
+        line-height: 0.8em;
+        font-size: 20vw;
+    }
+    #d1 h2{
+        font-size: 2em;
+    }
+    #d1 p{
+        font-size: 1.5em;
+    }
+    #d2 h1, #d3 h1{
+        font-size: 5.5em;
+    }
+    #d2 p{
+        padding: 0.5em 1.5em 0em 1.5em;
+        font-size: 1.6em;
+    }
+    #d2 img, #d3 img{
+        width: 20em;
+    }
+    #d3 p{
+        padding: 0.5em 2em 0em 2em;
+        font-size: 1.6em;
+    }
+    #d4 h1, #d5 h1{
+        font-size: 6em;
+    }
+    #d4 p{
+        font-size: 1.9em;
+        padding: 0.5em 1.2em 2em 1.2em;;
+    }
+    #sd4-1{
+        padding: 0 3em 2em 3em;
+    }
+    #sd5-1{
+        padding: 0 3em 4em 3em;
+    }
+    #d5 p{
+        font-size: 1.9em;
+        padding: 0.5em 1.2em 1em 1.2em;
+    }
+    #d6 h1{
+        font-size: 3.2em;
+        padding: 1em 0.8em 0.3em 0.8em;
+    }
+    #sd6-1{
+        padding: 2em 2.5em 5em 2.5em;
+        grid-gap: 2em;
+    }
+    #sd6-1 .card-title{
+        font-size: 2em;
+    }
+    #sd6-1 .card-text{
+        font-size: 1.4em;
+    }
+}
+@media screen and (max-width:419px){
+    #d2 h1, #d3 h1{
+        font-size: 4.5em;
+    }
+    #d2 p, #d3 p{
+        padding: 0.5em 1.5em 0em 1.5em;
+        font-size: 1.6em;
+    }
+    #d2 img, #d3 img{
+        width: 20em;
+        padding: 0em 2em 1em 2em;
+    }
+    #d4 p{
+        font-size: 1.5em;
+        padding: 0.5em 1.5em 2em 1.5em;;
+    }
+    #d5 p{
+        font-size: 1.5em;
+        padding: 0.5em 1.5em 1em 1.5em;
+    }
+    #d6 h1{
+        font-size: 2.8em;
+        padding: 1em 0.8em 0.3em 0.8em;
+    }
+    #sd6-1{
+        padding: 2em 2em 4em 2em;
+        grid-gap: 1.8em;
+    }
+    #sd6-1 .card-title{
+        font-size: 1.8em;
+    }
+    #sd6-1 .card-text{
+        font-size: 1.4em;
+    }
+}
+@media screen and (max-width:385px){
+    #d2 h1, #d3 h1{
+        padding: 0.5em 0.5em 0em 0.5em;
+        font-size: 4em;
+    }
+    #d2 p, #d3 p{
+        padding: 0.5em 2em 0em 2em;
+        font-size: 1.2em;
+    }
+    #d2 img, #d3 img{
+        width: 15em;
+        padding: 0em 2em 1em 2em;
+    }
+    #d4 h1, #d5 h1{
+        font-size: 5em;
+    }
+    #d4 p, #d5 p{
+        font-size: 1.3em;
+    }
+}
+@media screen and (max-width:345px){
+    #d1 h1{
+        padding: 1em 25vw 0.3em 25vw;
+        line-height: 0.8em;
+        font-size: 20vw;
+    }
+    #d1 h2{
+        font-size: 1.5em;
+    }
+    #d1 p{
+        font-size: 1em;
+    }
+    #d4 h1, #d5 h1{
+        font-size: 4em;
+    }
+    #d4 p, #d5 p{
+        font-size: 1.2em;
+    }
+}
+@media screen and (max-width:304px){
+    #d2 h1, #d3 h1{
+        padding: 0.5em 0.5em 0em 0.5em;
+        font-size: 3em;
+    }
+    #d2 p, #d3 p{
+        padding: 0.5em 1.4em 0em 1.4em;
+        font-size: 1.2em;
+    }
+    #d2 img, #d3 img{
+        width: 80vw;
+        padding: 0em 10vw 1em 10vw;
+    }
+}
