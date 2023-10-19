@@ -309,13 +309,13 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary{
 #sd7-4 .bi-bag-heart-fill{
     width: 10em;
     height: auto;
-    margin: 1em 0;
+    margin: 1em 0 1.5em;
 }
 #sd7-4 #sd7-4-p1{
     font-family: 'Satisfy', cursive;
     font-size: 3em;
     text-align: center;
-    line-height: 1.2em;
+    line-height: 1.3em;
 }
 #sd7-4 #sd7-4-p2{
     font-family: 'Kalam', cursive;
